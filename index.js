@@ -1,4 +1,7 @@
-const person={
+//objeect creation with braces
+
+//object creation
+const person={                 
   id:90028,
   name:'janu',
   school:'KMHSS',
@@ -44,6 +47,7 @@ setId:function(ID){
 
 };
 
+//getters
 let id=person.getId();
 console.log('Id:',id);
 let name = person.getName();
@@ -58,7 +62,7 @@ let Blood = person.getBlood();
 console.log('Blood:',Blood);
 
 console.log("//After setting values//");
-
+//setters
 person.setId(90027)
 id=person.getId();
 console.log('Id:',id);
@@ -78,3 +82,4 @@ person.setBlood('B+ve')
  Blood = person.getBlood();
 console.log('Blood:',Blood);
 
+//-----------------------------------------------------------------
