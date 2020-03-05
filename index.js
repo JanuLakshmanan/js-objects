@@ -140,6 +140,6 @@ console.log(average);
 const totaldetail=detail.getTotDet();
 console.log(totaldetail);
 */
-
+//----------------------------------------------------------------
 
 
