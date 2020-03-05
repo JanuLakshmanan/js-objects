@@ -82,4 +82,64 @@ person.setBlood('B+ve')
  Blood = person.getBlood();
 console.log('Blood:',Blood);
 
+//console.log(Object.keys(person));
 //-----------------------------------------------------------------
+
+///object task-----------------------------------------------------
+/*function Detail(name,mark1,mark2,mark3){
+
+   this.name=name;
+   this.mark1=mark1;
+   this.mark2=mark2;
+   this.mark3=mark3;     
+   this.getMarks=function(){
+       return {name:this.name,mark1:this.mark1,mark2:this.mark2,mark3:this.mark3};
+   }
+   this.getTotal=function() {
+       this.totalvalue=this.mark1+this.mark2+this.mark3;
+       this.total={name:this.name,total:this.totalvalue};
+       return  this.total;
+   }
+   this.getAvg=function() {
+    this.avgvalue=this.totalvalue/3;
+    this.average={name:this.name,avg:this.avgvalue};
+    return  this.average;
+}
+
+ this.getTotDet=function(){
+      
+    this.totaldetail={name:this.name,total:this.totalvalue,average:this.avgvalue};
+    return this.totaldetail;
+ }
+
+}
+
+var name,mark1,mark2,mark3;
+ name=prompt("Enter your name");
+while(isNaN(mark1)||mark1>100||mark1<0)
+{
+     mark1=prompt("Enter a valid mark1");
+}
+while(isNaN(mark2)||mark2>100 ||mark2<0)
+{
+var mark2=prompt("Enter   valid mark2");
+}
+while(isNaN(mark3)||mark3>100||mark3<0)
+{
+ mark3=prompt("Enter a valid mark3");
+}
+const detail= new Detail(name,parseInt(mark1),parseInt(mark2),parseInt(mark3));
+console.log(detail.getMarks());
+
+const total=detail.getTotal(); 
+console.log(total);
+
+const average=detail.getAvg(); 
+console.log(average);
+
+const totaldetail=detail.getTotDet();
+console.log(totaldetail);
+*/
+
+
+
